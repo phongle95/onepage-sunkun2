@@ -661,7 +661,7 @@ header:before {
   position: relative;
   z-index: 20;
   padding: 0;
-  border-bottom: 1px solid rgba(221, 221, 221, 0.35);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 .main-nav nav .nav-link {
   transition: 0.5s;

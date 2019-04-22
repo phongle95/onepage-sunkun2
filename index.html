@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/toastr.css">
 
     <!-- =========================
         Loding Main Theme Style
@@ -72,7 +73,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                 	<p class="media-body">Đăng ký làm đại lý bán lẻ</p>
-                                	<p>Các bạn muốn đăng ký làm đại lý bán lẻ, hoặc thành viên hãy để lại thông tin liên hệ dưới đây hoặc gọi trực tiếp vào hotline của mình nhé <strong>0913427619</strong></p>
+                                	<p>Các bạn muốn đăng ký làm đại lý bán lẻ, hoặc thành viên hãy để lại thông tin liên hệ dưới đây hoặc gọi trực tiếp vào hotline của mình nhé <strong>0989 274 727</strong></p>
                                     <div class="modal-body">
                                         <form>
                                             <div class="form-group col-12 pd-0 mr-0">
@@ -82,7 +83,7 @@
                                                 <input type="text" class="form-control" placeholder="Số điện thoại">
                                             </div>
                                             <div class="col-12 pd-0">
-                                                <button type="submit" class="btn btn-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none cursor-pointer">Submit</button>
+                                                <button type="submit" class="btn btn-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none cursor-pointer">Đăng Ký</button>
                                             </div>
                                         </form>
                                     </div>
@@ -105,17 +106,18 @@
                                 <div class="modal-content">
                                     <div class="modal-body">
                                         <form>
+                                                <p style="text-align:center;font-weight:600">Vui Lòng Nhập Đủ Thông Tin Bên Dưới</p>
                                             <div class="form-group col-12 pd-0 mr-0">
-                                                <input type="text" class="form-control" placeholder="Name">
+                                                <input type="text" class="form-control" placeholder="Nhập tên của bạn">
                                             </div>
                                             <div class="form-group col-12 pd-0 mr-0">
-                                                <input type="email" class="form-control" placeholder="Email">
+                                                <input type="number" class="form-control" placeholder="Nhập số điện thoại">
                                             </div>
                                             <div class="form-group col-12 pd-0 mr-0">
-                                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Send your message"></textarea>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nội dung"></textarea>
                                             </div>
                                             <div class="col-12 pd-0">
-                                                <button type="submit" class="btn btn-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none cursor-pointer">Submit</button>
+                                                <button type="submit" class="btn btn-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none cursor-pointer">Hoàn Thành</button>
                                             </div>
                                         </form>
                                     </div>
@@ -180,7 +182,7 @@
                         </div>
                     </div>
                     <div class="p-2 d-lg-flex align-items-lg-center">
-                        <a href="https://www.amazon.com/" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none">ĐẶT HÀNG</a>
+                        <a data-toggle="modal" data-target="#header-faq" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none">ĐẶT HÀNG</a>
                     </div>
                 </div>
             </nav>     
@@ -562,7 +564,7 @@
                             Hoàn tiền 100% hoặc đổi trả sản phẩm khi quý khách không hài lòng về sản phẩm , dịch vụ của chúng tôi
                         </div>
                         <div class="product-offers-btn">
-                            <a href="https://www.amazon.com/" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none">Đặt hàng ngay</a>
+                            <a data-toggle="modal" data-target="#header-faq" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none">Đặt hàng ngay</a>
                         </div>
                     </div>
                 </div>
@@ -747,7 +749,7 @@
                                             <input type="number" class="form-control border-transparent black focus-none" placeholder="1">
                                         </div>
                                         <div class="col-4">
-                                            <a href="https://www.amazon.com/" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none">ĐẶT HÀNG NGAY</a>
+                                            <a data-toggle="modal" data-target="#header-faq" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-out-horizontal bg-green border-transparent white focus-none">ĐẶT HÀNG NGAY</a>
                                         </div>
                                     </div>
                                 </form>
@@ -802,7 +804,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 d-md-flex align-items-center text-center call-to-action-view-btn">
-                    <a href="#" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-in-horizontal focus-none bg-white border-transparent green">Đăng ký tư vấn ngay</a>
+                    <a data-toggle="modal" data-target="#header-faq" target="_blank" class="btn ral btn-outline-primary vigo-btn hvr-shutter-in-horizontal focus-none bg-white border-transparent green">Đăng ký tư vấn ngay</a>
                 </div>
             </div>
         </div>
@@ -835,7 +837,7 @@
                                     <input type="text" class="form-control focus-none" placeholder="Tên của bạn">
                                 </div>
                                 <div class="col-12 col-xl-6">
-                                    <input type="phone" class="form-control focus-none" placeholder="Số điện thoại">
+                                    <input type="number" class="form-control focus-none" placeholder="Số điện thoại">
                                 </div>
                                 <div class="col-12 col-xl-12">
                                     <textarea class="form-control focus-none" placeholder="Nội dung"></textarea>
@@ -894,6 +896,70 @@
     <script src="js/jquery.nav.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/1.3.1/js/toastr.js"></script>
+
+
+    <script>
+      
+      
+
+        toastr.options = {
+        "closeButton": true,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": true,
+        "positionClass": "toast-bottom-left",
+        "preventDuplicates": false,
+        "onclick": null,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "2000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+        }
+ 
+        setInterval(function(){  
+        
+        var arr = ['Lê','Nguyễn','Lương','Võ','Trương','Đặng','Ngô'];
+        var lot = ['hồng','thành','thị','thu','ánh','minh','hoài'];
+        var ten = ['phong','trung','hằng','hậu','phương','tài','linh','hiền','luân'];
+        var brr = ['vừa đặt hàng xong','đã được tư vấn','mua hàng thành công','vừa đăng ký thành công','liên hệ thành công','vừa đặt xong 1 liệu trình'];
+            var number = Math.floor(Math.random() * 5);
+            var aa = Math.floor(Math.random() * 5);
+            var bb = Math.floor(Math.random() * 5);
+            var so = Math.floor(Math.random() * 5);  
+            console.log("Hello" + " " + arr[number] );
+            toastr["success"](arr[number] +' '+ lot[aa] + ' ' + ten[bb] + '<br>' + brr[so] );
+        }, 6000);
+
+
+
+
+        // $(function () {
+        // $('#error').click(function () {
+        //     // make it not dissappear
+        //     toastr.error("Noooo oo oo ooooo!!!", "Title", {
+        //         "timeOut": "0",
+        //         "extendedTImeout": "0"
+        //     });
+        // });
+        // $('#info').click(function () {
+        //     // title is optional
+        //     toastr.info("Info Message", "Title");
+        // });
+        // $('#warning').click(function () {
+        //     toastr.warning("Warning");
+        // });
+        // $('#success').click(function () {
+        //     toastr.success("YYEESSSSSSS");
+        // });
+        // });
+
+           
+    </script>
 
 
   </body>
